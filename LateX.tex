@@ -1,0 +1,158 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{mathtools}  
+
+\title{Hello World!}
+\author{Ahmet KURT}
+\date{July 21, 2022}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Getting Started}
+
+\textbf{Hello World!} Today I am learning \LaTeX{}. \LaTeX{} is a great program for writing math. I can write in line math such as $a^{2}+b^{2}=c^{2}$. I can also give equations their own space:   
+\begin{equation} \label{eq:eps}
+\gamma^{2}+\theta^{2}=\omega^{2} 
+\end{equation}\\`` Maxwell's equations'' are named for James Clark Maxwell and are as follow:\\
+
+\begin{equation} \label{eq:eps1}
+\hspace{-60}
+\vec{\nabla} \cdot \vec{E}  \hspace{5} \textbf{=}\hspace{5} \frac{\rho}{\varepsilon_0}\hspace{100} \textrm{Gauss's Law}
+\end{equation}
+\begin{equation} \label{eq:eps2}
+\hspace{0}                 
+\vec{\nabla} \cdot \vec{B} \hspace{5} \textbf{=}\hspace{5}0  \hspace{100} \textrm{Gauss's Law for Magnetism}
+\end{equation}
+\begin{equation} \label{eq:eps3}
+\hspace{-5} \vec{\nabla}  \times \vec{E}  \hspace{5} \textbf{=}\hspace{5}- \frac{\partial \vec{B}}{\partial t}\hspace{77}
+\textrm{Faraday's Law of Induction}
+\end{equation}
+\begin{equation} \label{eq:eps4}
+\hspace{-24}\vec{\nabla} \times \vec{B}  \hspace{5} \textbf{=}\hspace{5}  \mu_0 \left( \varepsilon_0\frac{\partial \vec{E}}{\partial t}+\vec{J} \right)\hspace{37} \textrm{Ampere's Circuital Law}
+\end{equation}
+ Denklem \textcolor{blue}{2, 3, 4} and \textcolor{blue}{5}   are some of the most important in Physics.
+
+\section{What about Matrix Equations?}
+\begin{equation*}
+\begin{pmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots  & \vdots  & \ddots & \vdots  \\
+a_{n1} & a_{n2} & \cdots & a_{nn} 
+\end{pmatrix}
+%
+  \begin{bmatrix}
+    v_{1} \\
+    v_{2} \\
+    \vdots\\
+    v_{n} \\
+  \end{bmatrix} 
+% 
+=
+\begin{matrix}
+    w_{1} \\
+    w_{2} \\
+    \vdots\\
+    w_{n} \\
+  \end{matrix}
+\end{equation*}
+
+ \pagebreak
+
+   
+
+\begin{displaymath}
+  \iiint\limits_V f(x,y,z) \, dV =F  
+\end{displaymath}
+
+\begin{displaymath}
+\frac{dx}{dy} = x'= \lim\limits_{h \to 0} \frac{f(x + h )-f(x)}{h}= 0  
+\end{displaymath} 
+
+ \begin{displaymath}
+|x| = \left\{ \begin{array}{ll}
+-x & if \textrm{ $x<0$ ise}\\
+x & if \textrm{ $x \geq 0$ ise}\\
+\end{array} \right.
+\end{displaymath}
+ 
+\begin{displaymath}
+F(x) = A_{0}+
+\sum_{n=1}^{N} \begin{bmatrix}
+  A_{n}\cos\Big(\frac{2\pi n}{P}\Big)+
+  B_{n}\sin\Big(\frac{2\pi n}{P}\Big)
+  \end{bmatrix} 
+\end{displaymath}
+
+\begin{displaymath}
+\sum_{n=1} \frac{1}{n^{s}} = \prod_P \frac{1}{1-\frac{1}{P^{n}}}
+\end{displaymath} 
+ 
+ \begin{displaymath}
+ m\ddot{x}+c\dot{x}+kx=F_{0}\sin(2\pi ft)
+ \end{displaymath}
+ 
+\begin{displaymath}f(x)&\hspace{5}=\hspace{5}x^2 +3x+ 5x^2+8+6x\\
+   
+ \hspace{109} &=\hspace{5}6x^2+9x+8\\
+ 
+ \hspace{109}  =\hspace{5}x(6x+9)+8
+\end{displaymath}
+\begin{displaymath}
+X=\frac{F_0}{k}\frac{1}{\sqrt{(1-r^2)^2+(2 \zeta r^2)}}
+\end{displaymath}
+
+\begin{displaymath}
+G_{\mu\upsilon}\equiv R_{\mu\upsilon} - \frac{1}{2}Rg_{\mu\upsilon}=\frac{8\pi G}{c^4}T_{\mu\upsilon}
+\end{displaymath}\\
+
+
+
+\begin{displaymath}
+6CO_2+6H_2O \to C_6H_12O_6 + 6O_2
+\end{displaymath}
+
+\begin{displaymath}
+SO{_4}{^2^-}+Ba^2^+ \to BaSO_4
+\end{displaymath}
+
+\begin{equation*}
+\begin{pmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots  & \vdots  & \ddots & \vdots  \\
+a_{n1} & a_{n2} & \cdots & a_{nn} 
+\end{pmatrix}
+%
+  \begin{bmatrix}
+    v_{1} \\
+    v_{2} \\
+    \vdots\\
+    v_{n} \\
+  \end{bmatrix} 
+% 
+=
+\begin{matrix}
+    w_{1} \\
+    w_{2} \\
+    \vdots\\
+    w_{n} \\
+  \end{matrix}
+\end{equation*}
+\begin{displaymath}
+\frac{\partial_u}{\partial_t} + (u . \nabla)u-\upsilon\nabla^2(u)=-\nabla h
+\end{displaymath}
+
+\begin{displaymath}
+\alpha A \beta B \gamma \Gamma \delta \Delta \pi \Pi \omega \Omega 
+\end{displaymath}
+
+
+
+
+\end{document}
